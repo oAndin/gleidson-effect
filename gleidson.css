@@ -6,3 +6,38 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+main::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+body section.efeito-gleidson img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+body section.efeito-gleidson .container-explicacao {
+    /* Se você veio conferir meu codigo, lembre se quem só Deus pode me julgar */
+}
+
+
+body section.explicacao img {
+    width: 100%;
+    height: 100vh;
+    object-fit: fill;
+    z-index: -1;
+}
