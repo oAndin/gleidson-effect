@@ -1,0 +1,45 @@
+body section.efeito-gleidson {
+    width: 100%;
+    height: 100%;
+}
+
+body section.efeito-gleidson .conteudo {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1;
+}
+
+body section.efeito-gleidson .container-explicacao {
+    /* Se você veio conferir meu codigo, lembre se quem só Deus pode me julgar */
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    background: transparent;
+    backdrop-filter: blur(15px);
+}
+body section.efeito-gleidson .container-explicacao h1{
+    color: #000;
+    text-align: center;
+}
+
+body section.efeito-gleidson .container-explicacao p {
+
+}
+
+body section.efeito-gleidson .container-botao {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #000;
+}
+
