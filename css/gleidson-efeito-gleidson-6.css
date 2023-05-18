@@ -1,11 +1,11 @@
-.meio-estilo-3 {
+.meio-estilo-5 {
     position: relative;
     width: 100%;
     height: 902px;
     user-select: none;
 }
 
-.meio-estilo-3 img {
+.meio-estilo-5 img {
     width: 100%;
     height: 100%;
     display: flex;
@@ -14,18 +14,18 @@
     z-index: -1;
 }
 
-.meio-estilo-3 .conteudo {
+.meio-estilo-5 .conteudo {
     display: flex;
 }
 
-.meio-estilo-3 .conteudo .container-texto {
+.meio-estilo-5 .conteudo .container-texto {
     width: 400px;
     height: 200px;
     backdrop-filter: blur(15px);
     margin: 10rem 0 0 10rem;
 }
 
-.meio-estilo-3 .conteudo .container-texto {
+.meio-estilo-5 .conteudo .container-texto {
     width: 400px;
     height: 200px;
     display: flex;
@@ -33,16 +33,17 @@
     justify-content: space-evenly;
     align-items: center;
     backdrop-filter: blur(15px);
+    box-shadow: 5px 5px 15px #000;
 }
 
-.meio-estilo-3 .conteudo .container-texto p {
+.meio-estilo-5 .conteudo .container-texto p {
     text-align: justify;
     font-size: large;
     line-height: 20px;
     margin: 1.5rem;
 }
 
-.meio-estilo-3 .conteudo .container-botao {
+.meio-estilo-5 .conteudo .container-botao {
     width: 400px;
     height: 200px;
     display: flex;
@@ -52,11 +53,26 @@
     margin: 10rem 0 0 10rem;
 }
 
-.meio-estilo-3 .conteudo .container-botao button {
+.meio-estilo-5 .conteudo .container-botao button {
     width: 200px;
     height: 50px;
     margin-top: 20px;
     border-radius: 8px;
     background-color:#C92071;
     color: #fff;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px #000;
+    transition: 0.7s ease-in-out;
+}
+.meio-estilo-5 .conteudo .container-botao button:hover {
+    color: #000;
+    background-color: #941653;
+}
+
+.meio-estilo-5 .conteudo .container-botao button:active {
+    color: #000;
+    background-color: #941653;
+    position: relative;
+    top: 5px;
+    box-shadow: 2px 2px 25px 2px #000;
 }
